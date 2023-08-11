@@ -1,0 +1,149 @@
+
+
+
+{% schema %}
+{
+  "name": "Product Recommendations",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Your Text",
+      "id": "text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection_block",
+      "name": "Collection Block",
+      "settings": [
+        {
+          "type": "collection",
+          "label": "Collection",
+          "id": "collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "custom",
+      "name": "Product Recommendations"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  
+  .wholediv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-block {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    display: flex;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    width:30%;
+   
+  }
+  .image-block{
+    width:426px;
+    max-width:100%;
+   
+  }
+  .modal-content img {
+    max-width: 100%;
+    height: 50%;
+  
+  }
+</style>
+
+<div class="wholediv">
+  {% for block in section.blocks %}
+    <div class="image-block">
+      <a href="#" class="open-modal-btn" data-modal-id="PopupModal-{{ block.id }}">
+        {% if block.settings.collection.image %}
+          <img src="{{ block.settings.collection.image | img_url: 'medium' }}" alt="Image">
+          <p>{{ block.settings.collection.image.alt }}</p>
+        {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+{% for block in section.blocks %}
+  <div id="PopupModal-{{ block.id }}" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+    
+      {% for product in block.settings.collection.products %}
+        <div class="product-item">
+          <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.price | money }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+<script>
+ 
+  document.addEventListener("DOMContentLoaded", function () {
+    const openModalButtons = document.querySelectorAll('.open-modal-btn');
+
+    openModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modalId = button.getAttribute('data-modal-id');
+        const modal = document.getElementById(modalId);
+
+        if (modal) {
+          modal.style.display = 'block';
+
+          const closeButton = modal.querySelector('.close');
+          if (closeButton) {
+            closeButton.addEventListener('click', () => {
+              modal.style.display = 'none';
+            });
+          }
+        }
+      });
+    });
+  });
+</script>
+
