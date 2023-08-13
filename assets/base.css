@@ -3542,12 +3542,19 @@ details-disclosure > details {
   font-size: 120px;
   line-height: 100px;
   font-family: Allana_Regular,sans-serif;
+  font-family: 'Allana', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: Allana_Regular;
-  src: url('https://cdn.shopify.com/s/files/1/0809/4544/7211/files/Allana_Regular_400.otf?v=1691860536');
+  font-family: 'Allana';
+  src: url('https://cdn.shopify.com/s/files/1/0809/4544/7211/files/Allana_Regular_400.otf?v=1691860536') format('opentype');
+ 
+}
+
+.banner__heading inline-richtext h2{
+    font-family: 'Allana', sans-serif;
+    color: var(--color-rosegold);
 }
 
 
