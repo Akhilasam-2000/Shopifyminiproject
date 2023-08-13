@@ -178,8 +178,11 @@
           "974538b2-1591-485c-91b7-9fdc3c233233",
           "bb62ff21-b61c-43c9-b82f-aa38bd19412b"
         ],
+        "custom_css": [
+          "p{}"
+        ],
         "settings": {
-          "text": ""
+          "text": "Not sure what to choose or how to convey your emotions? Tell us how you feel and we'll provide options to say it best."
         }
       }
     },
