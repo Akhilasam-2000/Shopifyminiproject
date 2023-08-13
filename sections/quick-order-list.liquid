@@ -167,9 +167,12 @@
           </div>
           <div class="quick-order-list-total__price">
             <noscript>
+        
               <button type="submit" class="button button--secondary" formnovalidate form="QuickOrderList">
                 {{ 'sections.cart.update' | t }}
+                
               </button>
+             
             </noscript>
             <div class="totals__product-total">
               <h3 class="totals__subtotal-value">
@@ -198,6 +201,7 @@
                 href="{{ routes.cart_url }}"
                 class="quick-order-list__button button button--secondary button--full-width"
               >
+              
                 <span class="quick-order-list__button-text">{{- 'sections.quick_order_list.view_cart' | t -}}</span>
               </a>
               <div class="variant-remove-total">

@@ -3511,3 +3511,44 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+.card__badge--new {
+  position: absolute;
+  display: inline-block;
+  line-height: 1;
+  text-align:center;
+  font-size: 1.2rem;
+  left: .5rem;
+  top: .5rem;
+  background-color: #FFA500 ;
+  color:white;
+  padding: .6rem 1.3rem;
+}
+#shopify-section-sections--20451047276843__header header{
+  max-width:100%;
+}
+.header-localization:not(.menu-drawer__localization) .disclosure__list-wrapper{
+  background-color: black;
+}
+.header-localization .disclosure .localization-form__select{
+  color:#f7c6a8;
+}
+.header__menu-item span {
+  color:#f7c6a8;
+}
+.banner__heading inline-richtext h1{
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: var(--color-rosegold);
+  font-size: 120px;
+  line-height: 100px;
+  font-family: Allana_Regular,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Allana_Regular;
+  src: url('https://cdn.shopify.com/s/files/1/0809/4544/7211/files/Allana_Regular_400.otf?v=1691860536');
+}
+
+
+  

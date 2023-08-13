@@ -138,6 +138,38 @@
           </div>
         </div>
       </div>
+
+      <div class="card__badge--new">
+        {% for tag in product.tags %}
+          {%- if current_tags contains 'New' -%}
+            <span> NEW! </span>
+           {% endif %}
+         {% endfor %}
+      </div>
+      {% unless settings.product == blank %}
+      {{ settings.show_new_badge }}
+    
+      
+  {% assign product = all_products[settings.product] %}
+
+  {% if product contains "New" %}
+    {{ product.title }} - {{ product.price }}
+  {% else %}
+    No product, or invalid product, selected.
+  {% endif %}
+{% endunless %}
+      <style>
+        .card__badge--new {
+ background: black;
+ color: white;
+ border: 2px solid var( — color-base-background-1);
+ margin-top: 1em;
+ padding: 0.3em 0.5em;
+ z-index: 9;
+ position: relative;
+ font-size: 0.875em;
+}
+      </style>
       <div class="card__content">
         <div class="card__information">
           <h3
