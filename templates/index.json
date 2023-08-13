@@ -63,6 +63,9 @@
         "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-2",
         "d6909e29-7227-49e6-aedb-a31fd6eb301c"
       ],
+      "custom_css": [
+        "h2 {font-family: \"Allana\", sans-serif; color:#f7c6a8;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
