@@ -64,7 +64,8 @@
         "d6909e29-7227-49e6-aedb-a31fd6eb301c"
       ],
       "custom_css": [
-        "h2 {font-family: \"Allana\", sans-serif; color: #f7c6a8;}"
+        "h2 {font-family: \"Allana\", sans-serif; color: #f7c6a8;}",
+        "p {font-family: \"Cormorant\", serif; font-size: 60px; color:white;}"
       ],
       "settings": {
         "layout": "full_bleed",
