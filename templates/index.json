@@ -25,11 +25,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Discover_Affordable_1_019065f7-bcee-4517-8d8e-b1e8d7fa7bf0.webp",
-            "heading": "Image slide",
+            "heading": "Affordable Luxury",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "MEMORIES CAPTURED",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -65,7 +65,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"Allana\", sans-serif; color: #f7c6a8;}",
-        "p {font-family: \"Cormorant\", serif; font-size: 60px; color:white;}"
+        "p {font-family: \"Cormorant\", serif; font-size: 60px; color: white;}"
       ],
       "settings": {
         "layout": "full_bleed",
