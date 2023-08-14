@@ -23,8 +23,9 @@
         "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/1670915.webp",
+            "title": "",
+            "text": "<p>Your flowers will be delivered on the date selected, according to your customisation.<\/p>",
             "link_label": "",
             "link": ""
           }
