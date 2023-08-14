@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "HAPPINESS",
             "button_label": "SHOP NOW",
-            "link": "\/pages\/subscriptions",
+            "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -64,7 +64,7 @@
         "d6909e29-7227-49e6-aedb-a31fd6eb301c"
       ],
       "custom_css": [
-        "h2 {font-family: \"Allana\", sans-serif; color:#f7c6a8;}"
+        "h2 {font-family: \"Allana\", sans-serif; color: #f7c6a8;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -200,7 +200,7 @@
           "type": "button",
           "settings": {
             "button_label": "SUBSCRIBE NOW",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/subscriptions-1",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
