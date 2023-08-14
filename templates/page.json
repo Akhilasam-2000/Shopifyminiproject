@@ -1,1 +1,68 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f63e7cb3-d88e-4a84-8a08-b76c88dfba45": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-1",
+        "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-2",
+        "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-3"
+      ],
+      "settings": {
+        "title": "HOW IT WORKS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f63e7cb3-d88e-4a84-8a08-b76c88dfba45"
+  ]
+}
