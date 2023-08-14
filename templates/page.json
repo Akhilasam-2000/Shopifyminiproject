@@ -46,6 +46,12 @@
         "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-2",
         "template--20574828953899__f63e7cb3-d88e-4a84-8a08-b76c88dfba45-column-3"
       ],
+      "custom_css": [
+        "div {background-color: #ffe9dd;}",
+        "img {height: 100px; margin-top: 200px;}",
+        "h2.title {text-align: center;}",
+        ".media media--transparent media--adapt {height: 20px;}"
+      ],
       "settings": {
         "title": "HOW IT WORKS",
         "heading_size": "h1",
