@@ -6,7 +6,8 @@
       "type": "header",
       "custom_css": [
         "header {background-color: #022730; width: 100%; max-width: 100%;}",
-        "a {color: white;}"
+        "a {color: #f7c6a8;}",
+        "span {color: #f7c6a8;}"
       ],
       "settings": {
         "logo_position": "middle-left",
