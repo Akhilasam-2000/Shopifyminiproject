@@ -1,1 +1,237 @@
-{"sections":{"589a1913-b8bb-4f55-91c1-9b7b48fa2cd7":{"type":"slideshow","blocks":{"template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Discover_Luxury_1.webp","heading":"Discover","heading_size":"h1","subheading":"HAPPINESS","button_label":"SHOP NOW","link":"\/pages\/subscriptions","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":20,"color_scheme":"background-2","text_alignment_mobile":"center"}},"template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-2":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Discover_Affordable_1_019065f7-bcee-4517-8d8e-b1e8d7fa7bf0.webp","heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":20,"color_scheme":"","text_alignment_mobile":"center"}},"d6909e29-7227-49e6-aedb-a31fd6eb301c":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Discover_Seamless_1_1.webp","heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":20,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-1","template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-2","d6909e29-7227-49e6-aedb-a31fd6eb301c"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"60b2ac7a-319c-485d-8884-3b0d311b5ee8":{"type":"image-with-text","blocks":{"template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-heading-1":{"type":"heading","settings":{"heading":"CREATE AN ATMOSPHERE","heading_size":"h1"}},"template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-text-1":{"type":"text","settings":{"text":"<p>Exquisite floral arrangements crafted using bespoke designs to conjure up the perfect ambience. Anytime. Anywhere.<\/p>","text_style":"body"}},"template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-button-1":{"type":"button","settings":{"button_label":"VIEW CATALOGUE","button_link":"","button_style_secondary":false}}},"block_order":["template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-heading-1","template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-text-1","template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-button-1"],"custom_css":["h2 {width: 500px;}"," {background: linear-gradient(to right, white 30%, #F7C6A8 20%);"],"settings":{"image":"shopify:\/\/shop_images\/create_ain_atmosphere.webp","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":12,"padding_bottom":12}},"4603d94d-70f0-4dc8-84d9-87c83bb1e6b7":{"type":"image-banner","blocks":{"template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-heading-1":{"type":"heading","settings":{"heading":"SAY IT WITH FLOWERS","heading_size":"h1"}},"template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-text-1":{"type":"text","settings":{"text":"Use flowers to commemorate life’s important moments and feelings. Tap into the lavish world of flowers to cheer up loved ones, convey warmth and comfort, make an impression or simply boost a mood. ","text_style":"body"}},"template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-buttons-1":{"type":"buttons","settings":{"button_label_1":"WHAT'S YOUR MOOD","button_link_1":"","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":true}}},"block_order":["template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-heading-1","template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-text-1","template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-buttons-1"],"custom_css":[".banner__box {background-color: #022730; color: white; width: 30%; position: absolute; left: -10%; background-color: rgba(2, 39, 48, 0.1); z-index: 1;}","h2 {color: #ffffff;}","a.button {color: white; opacity: 0.9; border: 1px solid white;}"],"settings":{"image":"shopify:\/\/shop_images\/shop_with_emotions_2.webp","image_overlay_opacity":40,"image_height":"large","desktop_content_position":"top-left","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"background-1","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"a8972e2b-c877-44e8-929a-dc995cf4db84":{"type":"rich-text","blocks":{"template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-heading-1":{"type":"heading","settings":{"heading":"THE EXCLUSIVE COLLECTION","heading_size":"h1"}},"template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-text-1":{"type":"text","settings":{"text":"<p>Spruce up your home or workplace and turn ordinary days into memorable ones with subscriptions. Whether it's lighting up a room or never missing that special date, consider your steady supply of delight, delivered.<\/p>"}},"template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-button-1":{"type":"button","settings":{"button_label":"SUBSCRIBE NOW","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":true}}},"block_order":["template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-heading-1","template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-text-1","template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-button-1"],"custom_css":[".rich-text {background-color: #ffe9dd;}","a.button {background-color: #ffe9dd; color: #000000; border: 1px solid black; opacity: 0.9;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}}},"order":["589a1913-b8bb-4f55-91c1-9b7b48fa2cd7","60b2ac7a-319c-485d-8884-3b0d311b5ee8","4603d94d-70f0-4dc8-84d9-87c83bb1e6b7","a8972e2b-c877-44e8-929a-dc995cf4db84"]}
+{
+  "sections": {
+    "589a1913-b8bb-4f55-91c1-9b7b48fa2cd7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Discover_Luxury_1.webp",
+            "heading": "Discover",
+            "heading_size": "h1",
+            "subheading": "HAPPINESS",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Discover_Affordable_1_019065f7-bcee-4517-8d8e-b1e8d7fa7bf0.webp",
+            "heading": "Affordable Luxury",
+            "heading_size": "h1",
+            "subheading": "MEMORIES CAPTURED",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "d6909e29-7227-49e6-aedb-a31fd6eb301c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Discover_Seamless_1_1.webp",
+            "heading": "Moments Shared",
+            "heading_size": "h1",
+            "subheading": "MEMORIES CAPTURED",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-1",
+        "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-2",
+        "d6909e29-7227-49e6-aedb-a31fd6eb301c"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Allana\", sans-serif; color: #f7c6a8; font-size: 70px;}",
+        "p {font-family: \"Cormorant\", serif; font-size: 60px; color: white;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "60b2ac7a-319c-485d-8884-3b0d311b5ee8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CREATE AN ATMOSPHERE",
+            "heading_size": "h1"
+          }
+        },
+        "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Exquisite floral arrangements crafted using bespoke designs to conjure up the perfect ambience. Anytime. Anywhere.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW CATALOGUE",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-heading-1",
+        "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-text-1",
+        "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-button-1"
+      ],
+      "custom_css": [
+        "h2 {width: 500px;}",
+        " {background: linear-gradient(to right, white 30%, #F7C6A8 20%);"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/create_ain_atmosphere.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SAY IT WITH FLOWERS",
+            "heading_size": "h1"
+          }
+        },
+        "template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Use flowers to commemorate life’s important moments and feelings. Tap into the lavish world of flowers to cheer up loved ones, convey warmth and comfort, make an impression or simply boost a mood. ",
+            "text_style": "body"
+          }
+        },
+        "template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "WHAT'S YOUR MOOD",
+            "button_link_1": "https:\/\/floralle-tm.myshopify.com\/pages\/contact?view=textimage",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-heading-1",
+        "template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-text-1",
+        "template--20432764141867__4603d94d-70f0-4dc8-84d9-87c83bb1e6b7-buttons-1"
+      ],
+      "custom_css": [
+        ".banner__box {background-color: #022730; color: white; width: 30%; position: absolute; left: -10%; background-color: rgba(2, 39, 48, 0.1); z-index: 1;}",
+        "h2 {color: #ffffff;}",
+        "a.button {color: white; opacity: 0.9; border: 1px solid white;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop_with_emotions_2.webp",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "a8972e2b-c877-44e8-929a-dc995cf4db84": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE EXCLUSIVE COLLECTION",
+            "heading_size": "h1"
+          }
+        },
+        "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spruce up your home or workplace and turn ordinary days into memorable ones with subscriptions. Whether it's lighting up a room or never missing that special date, consider your steady supply of delight, delivered.<\/p>"
+          }
+        },
+        "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE NOW",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-heading-1",
+        "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-text-1",
+        "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-button-1"
+      ],
+      "custom_css": [
+        ".rich-text {background-color: #ffe9dd;}",
+        "a.button {background-color: #ffe9dd; color: #000000; border: 1px solid black; opacity: 0.9;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "589a1913-b8bb-4f55-91c1-9b7b48fa2cd7",
+    "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
+    "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
+    "a8972e2b-c877-44e8-929a-dc995cf4db84"
+  ]
+}
