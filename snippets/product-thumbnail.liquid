@@ -63,6 +63,7 @@
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
         }}
       </div>
+      
       <a href="{% if media.media_type == 'video' %}{{ media.sources[1].url }}{% else %}{{ media | external_video_url }}{% endif %}" class="product__media-toggle">
         <span class="visually-hidden">{{ 'products.product.video_exit_message' | t: title: product.title | escape }}</span>
       </a>
@@ -73,6 +74,7 @@
           sizes: sizes,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
         }}
+       
       </div>
     {%- endif -%}
   </noscript>
@@ -108,6 +110,12 @@
         sizes: sizes,
         widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
+      <div class="productbadges">
+         
+        {% if product.tags contains settings.tag %}
+        <p>{{settings.tag}}</p> 
+        {% endif %}
+      </div>
     </div>
     <button class="product__media-toggle quick-add-hidden product__media-zoom-{{ section.settings.image_zoom }}" type="button" aria-haspopup="dialog" data-media-id="{{ media.id }}">
       <span class="visually-hidden">

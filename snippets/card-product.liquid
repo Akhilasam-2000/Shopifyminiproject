@@ -370,7 +370,15 @@
               {{- 'products.product.on_sale' | t -}}
             </span>
           {%- endif -%}
+               
+                
+                  
         </div>
+        <div class="badges">
+                  {% if card_product.tags contains settings.tag %}
+                  <p>{{settings.tag}}</p> 
+                  {% endif %}
+                </div>
       </div>
     </div>
   </div>

@@ -3541,7 +3541,7 @@ details-disclosure > details {
   color: var(--color-rosegold);
   font-size: 120px;
   line-height: 100px;
-  font-family: Allana_Regular,sans-serif;
+ 
   font-family: 'Allana', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -3552,10 +3552,32 @@ details-disclosure > details {
  
 }
 
-.banner__heading inline-richtext h2{
-    font-family: 'Allana', sans-serif;
-    color: var(--color-rosegold);
+
+.badges {
+  top:0;
+  position: absolute;
+ width:50px;
+ color:white;
+
 }
+
+.productbadges p{
+background-color:#4285f4;
+width:50px;
+color:white;
+
+}
+
+.badges p {
+background-color:#4285f4;
+padding: 5px 10px;
+border-radius: 5px;
+font-size: 14px;
+margin: 0;
+}
+
+
+
 
 
   
