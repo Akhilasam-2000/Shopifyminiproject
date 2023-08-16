@@ -138,10 +138,45 @@
             "settings": {
               "collection": "ecstatic"
             }
+          },
+          "4fb2ddc0-6940-4e92-be07-fa9c4ecc48ee": {
+            "type": "collection_block",
+            "settings": {
+              "collection": "love"
+            }
+          },
+          "a2080071-060d-4a35-abf8-f8d1c2f8e37a": {
+            "type": "collection_block",
+            "settings": {
+              "collection": "joy"
+            }
+          },
+          "27e21964-94eb-4648-8bb2-003ca7a61c96": {
+            "type": "collection_block",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "d2003102-36d1-4273-9d75-520eda97730a": {
+            "type": "collection_block",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "6ce43b02-15be-445d-89db-c2d236f0e042": {
+            "type": "collection_block",
+            "settings": {
+              "collection": ""
+            }
           }
         },
         "block_order": [
-          "c0fe8134-e839-4708-b001-932ab3af6224"
+          "c0fe8134-e839-4708-b001-932ab3af6224",
+          "4fb2ddc0-6940-4e92-be07-fa9c4ecc48ee",
+          "a2080071-060d-4a35-abf8-f8d1c2f8e37a",
+          "27e21964-94eb-4648-8bb2-003ca7a61c96",
+          "d2003102-36d1-4273-9d75-520eda97730a",
+          "6ce43b02-15be-445d-89db-c2d236f0e042"
         ],
         "settings": {
           "text": ""
