@@ -149,7 +149,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "WHAT'S YOUR MOOD",
-            "button_link_1": "",
+            "button_link_1": "https:\/\/floralle-tm.myshopify.com\/pages\/contact?view=textimage",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
