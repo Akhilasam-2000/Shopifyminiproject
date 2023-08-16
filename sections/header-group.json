@@ -7,7 +7,7 @@
       "custom_css": [
         "header {background-color: #022730; width: 100%; max-width: 100%;}",
         "a {color: white;}",
-        ".headersearch{color:#022730;}"
+        ".header__search{color: #022730;}"
       ],
       "settings": {
         "logo_position": "middle-left",
