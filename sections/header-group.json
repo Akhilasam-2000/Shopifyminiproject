@@ -7,7 +7,7 @@
       "custom_css": [
         "header {background-color: #022730; width: 100%; max-width: 100%;}",
         "a {color: white;}",
-        ".modal__toggle-open icon icon-search {background-color: #022730;}"
+        ".header__icon .icon {background-color: #022730;}"
       ],
       "settings": {
         "logo_position": "middle-left",
