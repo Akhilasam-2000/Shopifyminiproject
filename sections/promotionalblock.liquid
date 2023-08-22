@@ -1,0 +1,129 @@
+{% if section.settings.selected_image != blank %}
+<div class="img-container">
+  {% for block in section.blocks %}
+  {% if block.settings.block.image %}
+  <div class="block-image">
+    <img src="{{ block.settings.block | img_url: 'master' }}" alt="Image" class="block-image image-hover">
+  </div>
+  {% endif %}
+  {% endfor %}
+  <div class="row">
+    {% for block in section.blocks %}
+    {% if block.type == 'two_columns' %}
+    <div class="col-md-6">
+      {% if block.settings.logo_image1.image %}
+      <div class="block-container">
+        <img src="{{ block.settings.logo_image1 | img_url: 'master' }}" alt="Image">
+        <img src="{{ block.settings.logo_image2 | img_url: 'master' }}" alt="Image">
+      </div>
+      {% endif %}
+    </div>
+    {% elsif block.type == 'three_columns' %}
+    <div class="col-md-4">
+      {% if block.settings.logo_image.image %}
+      <div class="block-container">
+        <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Image" class="blockimage">
+        <img src="{{ block.settings.logo_image2 | img_url: 'master' }}" alt="Image" class="blockimage">
+        <img src="{{block.settings.logo_image3 | img_url: 'master'}}" alt="Image" class="blockimage">
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+</div>
+{% endif %}
+{% schema %}
+{
+"name": "Image Blocks Section",
+"class": "image-blocks-section",
+"tag": "section",
+"settings": [
+{
+"type": "image_picker",
+"label": "Select Background Image",
+"id": "selected_image"
+}
+],
+"presets": [
+{
+"name": "Image Blocks Section",
+"category": "Custom"
+}
+],
+"blocks": [
+{
+"type": "columns",
+"name": "Block",
+"settings": [
+{
+"type": "image_picker",
+"label": "Pick Image",
+"id": "block"
+}
+]
+},
+{
+"type": "two_columns",
+"name": "Two Columns Block",
+"settings": [
+{
+"type": "image_picker",
+"label": "Pick Image",
+"id": "logo_image1"
+},
+{
+"type": "image_picker",
+"label": "Pick Image",
+"id": "logo_image2"
+}
+]
+},
+{
+"type": "three_columns",
+"name": "Three Columns Block",
+"settings": [
+{
+"type": "image_picker",
+"label": "Pick Image",
+"id": "logo_image"
+},
+{
+"type": "image_picker",
+"label": "Pick Image",
+"id": "logo_image2"
+},
+{
+"type": "image_picker",
+"label": "Pick Image",
+"id": "logo_image3"
+}
+]
+}
+]
+}
+{% endschema %}
+<style>
+  .img-container {
+    text-align: center;
+    background-image: url("{{ section.settings.selected_image | img_url: 'master' }}");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .block-container {
+    text-align: center;
+    z-index: 0;
+    padding-bottom: 177px;
+  }
+  .block-image {
+    width: 1288px;
+    margin: 0 auto;
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+  .blockimage {
+    padding: 10px;
+  }
+</style>

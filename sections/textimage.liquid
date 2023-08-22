@@ -80,9 +80,34 @@
 {% endfor %}
 </div>
 
+<!-- trying modal -->
 
-
+<modal-opener
+class="open-modal-btn"
+data-modal -id="PopupModal-{{ block.id }}"
+{{ block.shopify_attributes }}
+>
+<button
+  id="ProductPopup-{{ block.id }}"
+  class="product-popup-modal__button link"
+  type="button"
+  aria-haspopup="dialog"
+> 
+<a href="{{ product.url }}">
+  <div class="product-image">
+    <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+  </div>
+  <div class="product-info">
+    <h3>{{ product.title }}</h3>
+    <p>{{ product.price | money }}</p>
+{{ block.settings.collection.title }}
+</button>
+</modal-opener>
+<a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
+{{- block.settings.text -}}
+</a>
 <script>
+
   document.addEventListener("DOMContentLoaded", function () {
     const openModalButtons = document.querySelectorAll('.open-modal-btn');
     const overlayBg = document.getElementById('overlay-bg'); 
@@ -109,7 +134,149 @@
       });
     });
   });
+
+
 </script>
+
+<!-- 
+class DetailsModal extends HTMLElement {
+  constructor() {
+    super();
+    this.detailsContainer = this.querySelector('details');
+    this.summaryToggle = this.querySelector('summary');
+
+    this.detailsContainer.addEventListener('keyup', (event) => event.code.toUpperCase() === 'ESCAPE' && this.close());
+    this.summaryToggle.addEventListener('click', this.onSummaryClick.bind(this));
+    this.querySelector('button[type="button"]').addEventListener('click', this.close.bind(this));
+
+    this.summaryToggle.setAttribute('role', 'button');
+  }
+
+  isOpen() {
+    return this.detailsContainer.hasAttribute('open');
+  }
+
+  onSummaryClick(event) {
+    event.preventDefault();
+    event.target.closest('details').hasAttribute('open') ? this.close() : this.open(event);
+  }
+
+  onBodyClick(event) {
+    if (!this.contains(event.target) || event.target.classList.contains('modal-overlay')) this.close(false);
+  }
+
+  open(event) {
+    this.onBodyClickEvent = this.onBodyClickEvent || this.onBodyClick.bind(this);
+    event.target.closest('details').setAttribute('open', true);
+    document.body.addEventListener('click', this.onBodyClickEvent);
+    document.body.classList.add('overflow-hidden');
+
+    trapFocus(
+      this.detailsContainer.querySelector('[tabindex="-1"]'),
+      this.detailsContainer.querySelector('input:not([type="hidden"])')
+    );
+  }
+
+  close(focusToggle = true) {
+    removeTrapFocus(focusToggle ? this.summaryToggle : null);
+    this.detailsContainer.removeAttribute('open');
+    document.body.removeEventListener('click', this.onBodyClickEvent);
+    document.body.classList.remove('overflow-hidden');
+  }
+}
+
+customElements.define('details-modal', DetailsModal);
+
+if (!customElements.get('product-model')) {
+  customElements.define(
+    'product-model',
+    class ProductModel extends DeferredMedia {
+      constructor() {
+        super();
+      }
+
+      loadContent() {
+        super.loadContent();
+
+        Shopify.loadFeatures([
+          {
+            name: 'model-viewer-ui',
+            version: '1.0',
+            onLoad: this.setupModelViewerUI.bind(this),
+          },
+        ]);
+      }
+
+      setupModelViewerUI(errors) {
+        if (errors) return;
+
+        this.modelViewerUI = new Shopify.ModelViewerUI(this.querySelector('model-viewer'));
+      }
+    }
+  );
+}
+
+window.ProductModel = {
+  loadShopifyXR() {
+    Shopify.loadFeatures([
+      {
+        name: 'shopify-xr',
+        version: '1.0',
+        onLoad: this.setupShopifyXR.bind(this),
+      },
+    ]);
+  },
+
+  setupShopifyXR(errors) {
+    if (errors) return;
+
+    if (!window.ShopifyXR) {
+      document.addEventListener('shopify_xr_initialized', () => this.setupShopifyXR());
+      return;
+    }
+
+    document.querySelectorAll('[id^="ProductJSON-"]').forEach((modelJSON) => {
+      window.ShopifyXR.addModels(JSON.parse(modelJSON.textContent));
+      modelJSON.remove();
+    });
+    window.ShopifyXR.setupXRElements();
+  },
+};
+
+window.addEventListener('DOMContentLoaded', () => {
+  if (window.ProductModel) window.ProductModel.loadShopifyXR();
+}); --> -->
+
+
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const openModalButtons = document.querySelectorAll('.open-modal-btn');
+    const overlayBg = document.getElementById('overlay-bg'); 
+    const body = document.body;
+
+    openModalButtons.forEach(button => {
+      button.addEventListener('click', (event) => {
+        const modalId = button.getAttribute('data-modal-id');
+        const modal = document.getElementById(modalId);
+
+        if (modal) {
+          modal.style.display = 'block';
+          overlayBg.style.display = 'block'; 
+          body.style.overflow = 'hidden'; 
+          const closeButton = modal.querySelector('.close');
+          if (closeButton) {
+            closeButton.addEventListener('click', () => {
+              modal.style.display = 'none';
+              overlayBg.style.display = 'none'; 
+              body.style.overflow = 'auto'; 
+            });
+          }
+        }
+      });
+    });
+  });
+</script> -->
 <style>
   
   .overlay-bg {
