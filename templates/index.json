@@ -235,10 +235,19 @@
           "settings": {
             "block": "shopify:\/\/shop_images\/falcons_c90c34a7-4f37-47c7-9a2d-ba7c75699d49.webp"
           }
+        },
+        "d6ecc02a-027e-4199-a92c-17c68259f441": {
+          "type": "three_columns",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/falcon1.jpg",
+            "logo_image2": "shopify:\/\/shop_images\/falcon2.jpg",
+            "logo_image3": "shopify:\/\/shop_images\/falcon3.jpg"
+          }
         }
       },
       "block_order": [
-        "22e86848-ba04-44a4-b057-7e3e92e20cb6"
+        "22e86848-ba04-44a4-b057-7e3e92e20cb6",
+        "d6ecc02a-027e-4199-a92c-17c68259f441"
       ],
       "settings": {
         "selected_image": "shopify:\/\/shop_images\/Homepage-Kat-SpecialEventSection-Background_1920x_361762c3-cc9e-475f-9ce4-d60214f17563.webp"
