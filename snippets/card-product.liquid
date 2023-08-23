@@ -139,7 +139,15 @@
         </div>
       </div>
 
-    
+      <div class="card__badge--new">
+        {% for tag in product.tags %}
+          {%- if current_tags contains 'New' -%}
+            <span> NEW! </span>
+           {% endif %}
+         {% endfor %}
+      </div>
+      {% unless settings.product == blank %}
+      {{ settings.show_new_badge }}
     
       
   {% assign product = all_products[settings.product] %}
@@ -149,7 +157,7 @@
   {% else %}
     No product, or invalid product, selected.
   {% endif %}
-
+{% endunless %}
       <style>
         .card__badge--new {
  background: black;
