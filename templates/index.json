@@ -246,6 +246,7 @@
         },
         "b1d1cb9b-88f3-40e1-8c4a-dc39967a77d3": {
           "type": "two_columns",
+          "disabled": true,
           "settings": {
             "logo_image1": "shopify:\/\/shop_images\/falcon2.jpg",
             "logo_image2": "shopify:\/\/shop_images\/falcon1.jpg"
@@ -253,6 +254,7 @@
         },
         "1569a7bf-1e2d-429f-bff7-f5fe730a940c": {
           "type": "columns",
+          "disabled": true,
           "settings": {
             "block": "shopify:\/\/shop_images\/falcons.webp"
           }
