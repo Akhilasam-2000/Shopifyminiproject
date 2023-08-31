@@ -99,7 +99,7 @@
         "template--20718889009451__9d0c8dee-99af-4b4f-9f49-a7d6fced778b-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Collapsible row{{ product.metafields.custom.flower.value }}",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
