@@ -199,6 +199,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "4181040315025818836": {
+        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-script-v8.14.4\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
