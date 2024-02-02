@@ -269,34 +269,6 @@
       "settings": {
         "selected_image": "shopify:\/\/shop_images\/Homepage-Kat-SpecialEventSection-Background_1920x_361762c3-cc9e-475f-9ce4-d60214f17563.webp"
       }
-    },
-    "featured_collection_Ti9rA7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "accent-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -304,7 +276,6 @@
     "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
     "a8972e2b-c877-44e8-929a-dc995cf4db84",
-    "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
-    "featured_collection_Ti9rA7"
+    "77cb6c24-cec2-4be1-b37b-f624249ebcd4"
   ]
 }
