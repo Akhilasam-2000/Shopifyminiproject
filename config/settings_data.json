@@ -134,6 +134,12 @@
       "textimage": {
         "type": "textimage",
         "blocks": {
+          "collection_block_DqzdjM": {
+            "type": "collection_block",
+            "settings": {
+              "collection": ""
+            }
+          },
           "c0fe8134-e839-4708-b001-932ab3af6224": {
             "type": "collection_block",
             "settings": {
@@ -172,6 +178,7 @@
           }
         },
         "block_order": [
+          "collection_block_DqzdjM",
           "c0fe8134-e839-4708-b001-932ab3af6224",
           "4fb2ddc0-6940-4e92-be07-fa9c4ecc48ee",
           "a2080071-060d-4a35-abf8-f8d1c2f8e37a",
@@ -196,12 +203,6 @@
       },
       "13027630495364635475": {
         "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "4181040315025818836": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-script-v8.14.4\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": false,
         "settings": {
         }
@@ -277,7 +278,7 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#334fb4",
-          "secondary_button_label": "#fff",
+          "secondary_button_label": "#ffffff",
           "shadow": "#33b452"
         }
       }
