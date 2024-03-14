@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "byob-empty-state-hint": {
+      "type": "byob-empty-state-hint",
+      "settings": {
+      }
+    },
+    "16788576269eec43eb": {
+      "type": "apps",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "byob-empty-state-hint",
+    "16788576269eec43eb"
+  ]
+}
