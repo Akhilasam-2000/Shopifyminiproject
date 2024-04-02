@@ -225,19 +225,6 @@
           "greeting_message": "👋 Bonjour, écrivez‑nous si vous avez des questions. Nous serons ravis de vous aider !"
         }
       },
-      "9776720720251544092": {
-        "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-embed\/bab58598-3e6a-4377-aaaa-97189b15f131",
-        "disabled": false,
-        "settings": {
-          "registration_form_id": "lXtv2x",
-          "edit_account_form_id": "",
-          "edit_account_link_text": "Edit account",
-          "edit_account_heading": "Edit account",
-          "edit_account_back_link_text": "Back to account",
-          "enable_js_api": false,
-          "js_api_version": ""
-        }
-      },
       "10111608272286102450": {
         "type": "shopify:\/\/apps\/pickeasy\/blocks\/app-embed\/7e06b047-cfd1-4df7-add1-81e9a842022c",
         "disabled": true,
@@ -260,6 +247,19 @@
         "type": "shopify:\/\/apps\/delivery-pickup\/blocks\/odd-block\/80605365-b4f4-42ba-9b84-3d39984a49dc",
         "disabled": false,
         "settings": {
+        }
+      },
+      "9776720720251544092": {
+        "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-embed\/bab58598-3e6a-4377-aaaa-97189b15f131",
+        "disabled": true,
+        "settings": {
+          "registration_form_id": "lXtv2x",
+          "edit_account_form_id": "",
+          "edit_account_link_text": "Edit account",
+          "edit_account_heading": "Edit account",
+          "edit_account_back_link_text": "Back to account",
+          "enable_js_api": false,
+          "js_api_version": ""
         }
       }
     },
