@@ -251,7 +251,7 @@
       },
       "9776720720251544092": {
         "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-embed\/bab58598-3e6a-4377-aaaa-97189b15f131",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "registration_form_id": "lXtv2x",
           "edit_account_form_id": "",
