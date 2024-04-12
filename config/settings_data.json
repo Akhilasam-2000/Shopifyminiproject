@@ -267,6 +267,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "17745481618859153576": {
+        "type": "shopify:\/\/apps\/genie-store-pickup\/blocks\/app-embed\/e00f106c-bb7f-4e25-b11d-baff1a328f6b",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
