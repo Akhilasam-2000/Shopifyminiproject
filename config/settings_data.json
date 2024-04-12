@@ -258,6 +258,12 @@
       },
       "18171216174956455555": {
         "type": "shopify:\/\/apps\/delivery-pickup\/blocks\/odd-block\/80605365-b4f4-42ba-9b84-3d39984a49dc",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "12924379504690436420": {
+        "type": "shopify:\/\/apps\/store-pickup-delivery-cr\/blocks\/app-embed\/c3fec40a-5cb2-4a2b-851c-ed1eaed98975",
         "disabled": false,
         "settings": {
         }
