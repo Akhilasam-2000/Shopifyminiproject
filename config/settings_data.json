@@ -256,24 +256,6 @@
           "additionalJavascriptAndCss": ""
         }
       },
-      "18171216174956455555": {
-        "type": "shopify:\/\/apps\/delivery-pickup\/blocks\/odd-block\/80605365-b4f4-42ba-9b84-3d39984a49dc",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "12924379504690436420": {
-        "type": "shopify:\/\/apps\/store-pickup-delivery-cr\/blocks\/app-embed\/c3fec40a-5cb2-4a2b-851c-ed1eaed98975",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "17745481618859153576": {
-        "type": "shopify:\/\/apps\/genie-store-pickup\/blocks\/app-embed\/e00f106c-bb7f-4e25-b11d-baff1a328f6b",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "16963237191767492405": {
         "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
         "disabled": true,
@@ -283,6 +265,24 @@
       "13293358103573487045": {
         "type": "shopify:\/\/apps\/buunto-date-picker\/blocks\/app-embed\/c25d727a-3911-41c0-b858-6dd551b40d5b",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "17745481618859153576": {
+        "type": "shopify:\/\/apps\/genie-store-pickup\/blocks\/app-embed\/e00f106c-bb7f-4e25-b11d-baff1a328f6b",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "18171216174956455555": {
+        "type": "shopify:\/\/apps\/delivery-pickup\/blocks\/odd-block\/80605365-b4f4-42ba-9b84-3d39984a49dc",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "12924379504690436420": {
+        "type": "shopify:\/\/apps\/store-pickup-delivery-cr\/blocks\/app-embed\/c3fec40a-5cb2-4a2b-851c-ed1eaed98975",
+        "disabled": true,
         "settings": {
         }
       }
