@@ -279,6 +279,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "13293358103573487045": {
+        "type": "shopify:\/\/apps\/buunto-date-picker\/blocks\/app-embed\/c25d727a-3911-41c0-b858-6dd551b40d5b",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
