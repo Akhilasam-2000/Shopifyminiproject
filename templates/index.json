@@ -315,6 +315,21 @@
     },
     "171635789732a1810d": {
       "type": "apps",
+      "blocks": {
+        "popup_accordian_zLWJfb": {
+          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "settings": {
+            "image_url_newsletter": "shopify:\/\/shop_images\/Love_Delight_PopUp_Image.png",
+            "inline_subcontent": "hello",
+            "inline_content": "hai",
+            "inline_content_checkbox1": "checkbox",
+            "inline_content_checkbox2": ""
+          }
+        }
+      },
+      "block_order": [
+        "popup_accordian_zLWJfb"
+      ],
       "settings": {
         "include_margins": true
       }
