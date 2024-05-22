@@ -284,10 +284,17 @@
           "settings": {
             "size_chart_content": "hai"
           }
+        },
+        "popup_accordian_FFyTtE": {
+          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "settings": {
+            "size_chart_content": "hdbhcbbsadndnajn"
+          }
         }
       },
       "block_order": [
-        "popup_accordian_hca8ky"
+        "popup_accordian_hca8ky",
+        "popup_accordian_FFyTtE"
       ],
       "settings": {
         "include_margins": true
