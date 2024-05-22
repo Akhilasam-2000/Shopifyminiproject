@@ -91,11 +91,17 @@
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "settings": {
           }
+        },
+        "popup_accordian_PxLAfA": {
+          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "popup_accordian_FFyTtE",
-        "popup_accordian_hca8ky"
+        "popup_accordian_hca8ky",
+        "popup_accordian_PxLAfA"
       ],
       "settings": {
         "include_margins": true
