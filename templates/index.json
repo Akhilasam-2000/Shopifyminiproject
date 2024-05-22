@@ -318,6 +318,7 @@
       "blocks": {
         "popup_accordian_zLWJfb": {
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "disabled": true,
           "settings": {
             "image_url_newsletter": "shopify:\/\/shop_images\/Love_Delight_PopUp_Image.png",
             "inline_subcontent": "hello",
