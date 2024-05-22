@@ -85,16 +85,30 @@
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "disabled": true,
           "settings": {
+            "inline_subcontent": "hello",
+            "inline_content": "hai",
+            "inline_content_checkbox1": "checkbox",
+            "inline_content_checkbox2": ""
           }
         },
         "popup_accordian_hca8ky": {
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "settings": {
+            "inline_subcontent": "hello",
+            "inline_content": "hai",
+            "inline_content_checkbox1": "checkbox",
+            "inline_content_checkbox2": ""
           }
         },
         "popup_accordian_PxLAfA": {
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "settings": {
+            "image_url_newsletter": "shopify:\/\/shop_images\/Love_Delight_PopUp_Image.png",
+            "logo": "shopify:\/\/shop_images\/Rosegold_120x_2x_69bc4aec-459b-4e20-9548-0bf10803637b.jpg",
+            "inline_subcontent": "hello",
+            "inline_content": "hai",
+            "inline_content_checkbox1": "checkbox",
+            "inline_content_checkbox2": ""
           }
         }
       },
