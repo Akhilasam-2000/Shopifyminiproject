@@ -325,10 +325,16 @@
             "inline_content_checkbox1": "checkbox",
             "inline_content_checkbox2": ""
           }
+        },
+        "popup_test_9pgMqK": {
+          "type": "shopify:\/\/apps\/popup\/blocks\/test\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "popup_accordian_zLWJfb"
+        "popup_accordian_zLWJfb",
+        "popup_test_9pgMqK"
       ],
       "settings": {
         "include_margins": true
