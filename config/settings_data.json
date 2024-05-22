@@ -195,24 +195,6 @@
 
     ],
     "blocks": {
-      "6614979280454233053": {
-        "type": "shopify:\/\/apps\/preorder-now-sale-prequik\/blocks\/app-embed\/551fab2c-3af6-4a8f-ba21-736a71cb4540",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "13027630495364635475": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "6744518860797519131": {
-        "type": "shopify:\/\/apps\/etranslate-translate\/blocks\/floating-selector\/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -225,64 +207,9 @@
           "greeting_message": "👋 Bonjour, écrivez‑nous si vous avez des questions. Nous serons ravis de vous aider !"
         }
       },
-      "9776720720251544092": {
-        "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-embed\/bab58598-3e6a-4377-aaaa-97189b15f131",
-        "disabled": true,
-        "settings": {
-          "registration_form_id": "lXtv2x",
-          "edit_account_form_id": "",
-          "edit_account_link_text": "Edit account",
-          "edit_account_heading": "Edit account",
-          "edit_account_back_link_text": "Back to account",
-          "enable_js_api": false,
-          "js_api_version": ""
-        }
-      },
-      "10111608272286102450": {
-        "type": "shopify:\/\/apps\/pickeasy\/blocks\/app-embed\/7e06b047-cfd1-4df7-add1-81e9a842022c",
-        "disabled": true,
-        "settings": {
-          "enable_network_listeners": false,
-          "xhrRequestExactMatch": "",
-          "xhrRequestExactMatchTimeout": 500,
-          "xhrRequestPartialMatch": "",
-          "xhrRequestPartialMatchTimeout": 500,
-          "fetchRequestExactMatch": "",
-          "fetchRequestExactMatchTimeout": 500,
-          "fetchRequestPartialMatch": "",
-          "fetchRequestPartialMatchimeout": 500,
-          "buttonClickClassName": "",
-          "buttonClickTimeout": 500,
-          "additionalJavascriptAndCss": ""
-        }
-      },
-      "16963237191767492405": {
-        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "13293358103573487045": {
         "type": "shopify:\/\/apps\/buunto-date-picker\/blocks\/app-embed\/c25d727a-3911-41c0-b858-6dd551b40d5b",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "17745481618859153576": {
-        "type": "shopify:\/\/apps\/genie-store-pickup\/blocks\/app-embed\/e00f106c-bb7f-4e25-b11d-baff1a328f6b",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "18171216174956455555": {
-        "type": "shopify:\/\/apps\/delivery-pickup\/blocks\/odd-block\/80605365-b4f4-42ba-9b84-3d39984a49dc",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "12924379504690436420": {
-        "type": "shopify:\/\/apps\/store-pickup-delivery-cr\/blocks\/app-embed\/c3fec40a-5cb2-4a2b-851c-ed1eaed98975",
-        "disabled": true,
         "settings": {
         }
       }

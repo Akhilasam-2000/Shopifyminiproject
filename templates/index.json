@@ -269,6 +269,24 @@
       "settings": {
         "selected_image": "shopify:\/\/shop_images\/Homepage-Kat-SpecialEventSection-Background_1920x_361762c3-cc9e-475f-9ce4-d60214f17563.webp"
       }
+    },
+    "171635789732a1810d": {
+      "type": "apps",
+      "blocks": {
+        "popup_star_rating_VPe3cC": {
+          "type": "shopify:\/\/apps\/popup\/blocks\/star_rating\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "settings": {
+            "product": "alwaysadored",
+            "colour": "#ff0000"
+          }
+        }
+      },
+      "block_order": [
+        "popup_star_rating_VPe3cC"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -276,6 +294,7 @@
     "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
     "a8972e2b-c877-44e8-929a-dc995cf4db84",
-    "77cb6c24-cec2-4be1-b37b-f624249ebcd4"
+    "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
+    "171635789732a1810d"
   ]
 }
