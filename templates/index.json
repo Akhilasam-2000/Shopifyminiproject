@@ -282,13 +282,12 @@
         "popup_accordian_hca8ky": {
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "settings": {
-            "size_chart_content": "hai"
           }
         },
         "popup_accordian_FFyTtE": {
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+          "disabled": true,
           "settings": {
-            "size_chart_content": "hdbhcbbsadndnajn"
           }
         }
       },
