@@ -282,8 +282,7 @@
         "popup_accordian_hca8ky": {
           "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "settings": {
-            "title": "hai",
-            "paragraph": ""
+            "size_chart_content": "hai"
           }
         }
       },
