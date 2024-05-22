@@ -272,17 +272,23 @@
     },
     "171635789732a1810d": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1716361070dbf69ca7": {
+      "type": "apps",
       "blocks": {
-        "popup_star_rating_VPe3cC": {
-          "type": "shopify:\/\/apps\/popup\/blocks\/star_rating\/059ef884-1277-4344-b5ea-a3c3e6d17014",
+        "popup_accordian_hca8ky": {
+          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
           "settings": {
-            "product": "alwaysadored",
-            "colour": "#ff0000"
+            "title": "hai",
+            "paragraph": ""
           }
         }
       },
       "block_order": [
-        "popup_star_rating_VPe3cC"
+        "popup_accordian_hca8ky"
       ],
       "settings": {
         "include_margins": true
@@ -295,6 +301,7 @@
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
     "a8972e2b-c877-44e8-929a-dc995cf4db84",
     "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
-    "171635789732a1810d"
+    "171635789732a1810d",
+    "1716361070dbf69ca7"
   ]
 }
