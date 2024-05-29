@@ -80,43 +80,6 @@
     },
     "1716361070dbf69ca7": {
       "type": "apps",
-      "blocks": {
-        "popup_accordian_FFyTtE": {
-          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
-          "disabled": true,
-          "settings": {
-            "inline_subcontent": "hello",
-            "inline_content": "hai",
-            "inline_content_checkbox1": "checkbox",
-            "inline_content_checkbox2": ""
-          }
-        },
-        "popup_accordian_hca8ky": {
-          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
-          "settings": {
-            "inline_subcontent": "hello",
-            "inline_content": "hai",
-            "inline_content_checkbox1": "checkbox",
-            "inline_content_checkbox2": ""
-          }
-        },
-        "popup_accordian_PxLAfA": {
-          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
-          "settings": {
-            "image_url_newsletter": "shopify:\/\/shop_images\/Love_Delight_PopUp_Image.png",
-            "logo": "shopify:\/\/shop_images\/Rosegold_120x_2x_69bc4aec-459b-4e20-9548-0bf10803637b.jpg",
-            "inline_subcontent": "hello",
-            "inline_content": "hai",
-            "inline_content_checkbox1": "checkbox",
-            "inline_content_checkbox2": ""
-          }
-        }
-      },
-      "block_order": [
-        "popup_accordian_FFyTtE",
-        "popup_accordian_hca8ky",
-        "popup_accordian_PxLAfA"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -315,27 +278,26 @@
     },
     "171635789732a1810d": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1716961975b47f4afa": {
+      "type": "apps",
       "blocks": {
-        "popup_accordian_zLWJfb": {
-          "type": "shopify:\/\/apps\/popup\/blocks\/accordian\/059ef884-1277-4344-b5ea-a3c3e6d17014",
-          "disabled": true,
+        "popup2_accordian_zqgpLF": {
+          "type": "shopify:\/\/apps\/popup2\/blocks\/accordian\/71fa346d-11fc-49c8-9404-05eb2b1cf218",
           "settings": {
-            "image_url_newsletter": "shopify:\/\/shop_images\/Love_Delight_PopUp_Image.png",
+            "image_url_newsletter": "shopify:\/\/shop_images\/images_7.jpg",
             "inline_subcontent": "hello",
             "inline_content": "hai",
             "inline_content_checkbox1": "checkbox",
             "inline_content_checkbox2": ""
           }
-        },
-        "popup_test_9pgMqK": {
-          "type": "shopify:\/\/apps\/popup\/blocks\/test\/059ef884-1277-4344-b5ea-a3c3e6d17014",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "popup_accordian_zLWJfb",
-        "popup_test_9pgMqK"
+        "popup2_accordian_zqgpLF"
       ],
       "settings": {
         "include_margins": true
@@ -349,6 +311,7 @@
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
     "a8972e2b-c877-44e8-929a-dc995cf4db84",
     "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
-    "171635789732a1810d"
+    "171635789732a1810d",
+    "1716961975b47f4afa"
   ]
 }
