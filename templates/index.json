@@ -83,6 +83,7 @@
       "blocks": {
         "popup2_accordian_zqgpLF": {
           "type": "shopify:\/\/apps\/popup2\/blocks\/accordian\/71fa346d-11fc-49c8-9404-05eb2b1cf218",
+          "disabled": true,
           "settings": {
             "image_url_newsletter": "shopify:\/\/shop_images\/images_7.jpg",
             "inline_subcontent": "hello",
@@ -95,6 +96,7 @@
       "block_order": [
         "popup2_accordian_zqgpLF"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
