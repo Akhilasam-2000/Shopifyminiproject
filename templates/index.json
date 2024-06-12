@@ -1,5 +1,25 @@
 {
   "sections": {
+    "171635789732a1810d": {
+      "type": "apps",
+      "blocks": {
+        "popup2_accordian_FnBYGa": {
+          "type": "shopify:\/\/apps\/popup2\/blocks\/accordian\/71fa346d-11fc-49c8-9404-05eb2b1cf218",
+          "settings": {
+            "inline_subcontent": "hello",
+            "inline_content": "hai",
+            "inline_content_checkbox1": "checkbox",
+            "inline_content_checkbox2": ""
+          }
+        }
+      },
+      "block_order": [
+        "popup2_accordian_FnBYGa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "589a1913-b8bb-4f55-91c1-9b7b48fa2cd7": {
       "type": "slideshow",
       "blocks": {
@@ -298,22 +318,16 @@
       "settings": {
         "selected_image": "shopify:\/\/shop_images\/Homepage-Kat-SpecialEventSection-Background_1920x_361762c3-cc9e-475f-9ce4-d60214f17563.webp"
       }
-    },
-    "171635789732a1810d": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
+    "171635789732a1810d",
     "589a1913-b8bb-4f55-91c1-9b7b48fa2cd7",
     "1716961975b47f4afa",
     "1716361070dbf69ca7",
     "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
     "a8972e2b-c877-44e8-929a-dc995cf4db84",
-    "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
-    "171635789732a1810d"
+    "77cb6c24-cec2-4be1-b37b-f624249ebcd4"
   ]
 }
