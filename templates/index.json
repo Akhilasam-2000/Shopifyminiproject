@@ -6,6 +6,7 @@
         "popup2_accordian_FnBYGa": {
           "type": "shopify:\/\/apps\/popup2\/blocks\/accordian\/71fa346d-11fc-49c8-9404-05eb2b1cf218",
           "settings": {
+            "image_url_newsletter": "shopify:\/\/shop_images\/Love_Delight_PopUp_Image.png",
             "inline_subcontent": "hello",
             "inline_content": "hai",
             "inline_content_checkbox1": "checkbox",
