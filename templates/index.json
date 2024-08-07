@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "171635789732a1810d": {
@@ -115,29 +124,6 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "1716961975b47f4afa": {
-      "type": "apps",
-      "blocks": {
-        "popup2_accordian_zqgpLF": {
-          "type": "shopify:\/\/apps\/popup2\/blocks\/accordian\/71fa346d-11fc-49c8-9404-05eb2b1cf218",
-          "disabled": true,
-          "settings": {
-            "image_url_newsletter": "shopify:\/\/shop_images\/images_7.jpg",
-            "inline_subcontent": "hello",
-            "inline_content": "hai",
-            "inline_content_checkbox1": "checkbox",
-            "inline_content_checkbox2": ""
-          }
-        }
-      },
-      "block_order": [
-        "popup2_accordian_zqgpLF"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
       }
     },
     "1716361070dbf69ca7": {
@@ -342,7 +328,6 @@
   "order": [
     "171635789732a1810d",
     "589a1913-b8bb-4f55-91c1-9b7b48fa2cd7",
-    "1716961975b47f4afa",
     "1716361070dbf69ca7",
     "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
