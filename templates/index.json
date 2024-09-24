@@ -15,12 +15,12 @@
         "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Discover_Luxury_1.webp",
+            "image": "shopify://shop_images/Discover_Luxury_1.webp",
             "heading": "Discover",
             "heading_size": "h1",
             "subheading": "HAPPINESS",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -50,12 +50,12 @@
         "template--20432764141867__589a1913-b8bb-4f55-91c1-9b7b48fa2cd7-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Discover_Affordable_1_019065f7-bcee-4517-8d8e-b1e8d7fa7bf0.webp",
+            "image": "shopify://shop_images/Discover_Affordable_1_019065f7-bcee-4517-8d8e-b1e8d7fa7bf0.webp",
             "heading": "Affordable Luxury",
             "heading_size": "h1",
             "subheading": "MEMORIES CAPTURED",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -68,12 +68,12 @@
         "d6909e29-7227-49e6-aedb-a31fd6eb301c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Discover_Seamless_1_1.webp",
+            "image": "shopify://shop_images/Discover_Seamless_1_1.webp",
             "heading": "Moments Shared",
             "heading_size": "h1",
             "subheading": "MEMORIES CAPTURED",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -124,7 +124,7 @@
         "template--20432764141867__60b2ac7a-319c-485d-8884-3b0d311b5ee8-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Exquisite floral arrangements crafted using bespoke designs to conjure up the perfect ambience. Anytime. Anywhere.<\/p>",
+            "text": "<p>Exquisite floral arrangements crafted using bespoke designs to conjure up the perfect ambience. Anytime. Anywhere.</p>",
             "text_style": "body"
           }
         },
@@ -132,7 +132,7 @@
           "type": "button",
           "settings": {
             "button_label": "VIEW CATALOGUE",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
@@ -147,7 +147,7 @@
         " {background: linear-gradient(to right, white 30%, #F7C6A8 20%);"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/create_ain_atmosphere.webp",
+        "image": "shopify://shop_images/create_ain_atmosphere.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -182,7 +182,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "WHAT'S YOUR MOOD",
-            "button_link_1": "https:\/\/floralle-tm.myshopify.com\/pages\/contact?view=textimage",
+            "button_link_1": "https://floralle-tm.myshopify.com/pages/contact?view=textimage",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -201,7 +201,7 @@
         "a.button {color: white; opacity: 0.9; border: 1px solid white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/shop_with_emotions_2.webp",
+        "image": "shopify://shop_images/shop_with_emotions_2.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "top-left",
@@ -227,7 +227,7 @@
         "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Spruce up your home or workplace and turn ordinary days into memorable ones with subscriptions. Whether it's lighting up a room or never missing that special date, consider your steady supply of delight, delivered.<\/p>"
+            "text": "<p>Spruce up your home or workplace and turn ordinary days into memorable ones with subscriptions. Whether it's lighting up a room or never missing that special date, consider your steady supply of delight, delivered.</p>"
           }
         },
         "template--20432764141867__a8972e2b-c877-44e8-929a-dc995cf4db84-button-1": {
@@ -266,30 +266,30 @@
         "22e86848-ba04-44a4-b057-7e3e92e20cb6": {
           "type": "columns",
           "settings": {
-            "block": "shopify:\/\/shop_images\/falcons_c90c34a7-4f37-47c7-9a2d-ba7c75699d49.webp"
+            "block": "shopify://shop_images/falcons_c90c34a7-4f37-47c7-9a2d-ba7c75699d49.webp"
           }
         },
         "d6ecc02a-027e-4199-a92c-17c68259f441": {
           "type": "three_columns",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/falcon1.jpg",
-            "logo_image2": "shopify:\/\/shop_images\/falcon2.jpg",
-            "logo_image3": "shopify:\/\/shop_images\/falcon3.jpg"
+            "logo_image": "shopify://shop_images/falcon1.jpg",
+            "logo_image2": "shopify://shop_images/falcon2.jpg",
+            "logo_image3": "shopify://shop_images/falcon3.jpg"
           }
         },
         "b1d1cb9b-88f3-40e1-8c4a-dc39967a77d3": {
           "type": "two_columns",
           "disabled": true,
           "settings": {
-            "logo_image1": "shopify:\/\/shop_images\/falcon2.jpg",
-            "logo_image2": "shopify:\/\/shop_images\/falcon1.jpg"
+            "logo_image1": "shopify://shop_images/falcon2.jpg",
+            "logo_image2": "shopify://shop_images/falcon1.jpg"
           }
         },
         "1569a7bf-1e2d-429f-bff7-f5fe730a940c": {
           "type": "columns",
           "disabled": true,
           "settings": {
-            "block": "shopify:\/\/shop_images\/falcons.webp"
+            "block": "shopify://shop_images/falcons.webp"
           }
         }
       },
@@ -300,7 +300,41 @@
         "1569a7bf-1e2d-429f-bff7-f5fe730a940c"
       ],
       "settings": {
-        "selected_image": "shopify:\/\/shop_images\/Homepage-Kat-SpecialEventSection-Background_1920x_361762c3-cc9e-475f-9ce4-d60214f17563.webp"
+        "selected_image": "shopify://shop_images/Homepage-Kat-SpecialEventSection-Background_1920x_361762c3-cc9e-475f-9ce4-d60214f17563.webp"
+      }
+    },
+    "newsletter_k7MCD9": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_WeLUrP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_LXAJiQ": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_6iGEVd": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_WeLUrP",
+        "paragraph_LXAJiQ",
+        "email_form_6iGEVd"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -310,6 +344,7 @@
     "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
     "a8972e2b-c877-44e8-929a-dc995cf4db84",
-    "77cb6c24-cec2-4be1-b37b-f624249ebcd4"
+    "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
+    "newsletter_k7MCD9"
   ]
 }
