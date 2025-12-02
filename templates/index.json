@@ -107,6 +107,36 @@
     },
     "1716361070dbf69ca7": {
       "type": "apps",
+      "blocks": {
+        "form_builder_app_contact_form_BJfN39": {
+          "type": "shopify://apps/form-builder-app/blocks/contact-form/019adebd-1b16-73f0-9815-8b61efd5b98f",
+          "settings": {
+            "heading": "Contact Us",
+            "description": "Fill out the form below and we'll get back to you soon!",
+            "name_label": "Name",
+            "name_placeholder": "Enter your name",
+            "email_label": "Email",
+            "email_placeholder": "Enter your email",
+            "phone_label": "Phone Number",
+            "phone_placeholder": "Enter your phone number",
+            "button_text": "Submit",
+            "submitting_text": "Submitting...",
+            "success_message": "✓ Thank you! Your form has been submitted successfully.",
+            "error_message": "An error occurred. Please try again later.",
+            "max_width": 500,
+            "padding_top": 20,
+            "padding_sides": 20,
+            "padding_bottom": 20,
+            "heading_size": 28,
+            "heading_color": "#000000",
+            "button_color": "#008060",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "form_builder_app_contact_form_BJfN39"
+      ],
       "settings": {
         "include_margins": true
       }
