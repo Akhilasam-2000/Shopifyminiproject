@@ -110,6 +110,7 @@
       "blocks": {
         "form_builder_app_contact_form_BJfN39": {
           "type": "shopify://apps/form-builder-app/blocks/contact-form/019adebd-1b16-73f0-9815-8b61efd5b98f",
+          "disabled": true,
           "settings": {
             "heading": "Contact Us",
             "description": "Fill out the form below and we'll get back to you soon!",
@@ -406,6 +407,12 @@
     "1765341937b2f30ab8": {
       "type": "apps",
       "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_KfrqLT": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-Tuugit\"></div>"
+          }
+        },
         "klaviyo_email_marketing_sms_form_embed_block_jFwaTM": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
@@ -414,6 +421,7 @@
         }
       },
       "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_KfrqLT",
         "klaviyo_email_marketing_sms_form_embed_block_jFwaTM"
       ],
       "disabled": true,
