@@ -105,6 +105,36 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1765802411c246d37d": {
+      "type": "apps",
+      "blocks": {
+        "form_builder_contact_form_wrapper_79Qi9B": {
+          "type": "shopify://apps/form-builder/blocks/contact-form-wrapper/019b21ff-7de7-7278-a92b-b19f7e548dec",
+          "settings": {
+            "form_title": "Get in Touch",
+            "first_name_label": "First Name",
+            "last_name_label": "Last Name",
+            "email_label": "Email",
+            "phone_label": "Phone",
+            "message_label": "Message",
+            "button_text": "Submit",
+            "primary_color": "#007bff",
+            "text_color": "#333333",
+            "label_color": "#555555",
+            "input_border_color": "#dddddd",
+            "button_hover_color": "#0056b3",
+            "success_color": "#28a745",
+            "error_color": "#dc3545"
+          }
+        }
+      },
+      "block_order": [
+        "form_builder_contact_form_wrapper_79Qi9B"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1716361070dbf69ca7": {
       "type": "apps",
       "blocks": {
@@ -432,6 +462,7 @@
   },
   "order": [
     "589a1913-b8bb-4f55-91c1-9b7b48fa2cd7",
+    "1765802411c246d37d",
     "1716361070dbf69ca7",
     "60b2ac7a-319c-485d-8884-3b0d311b5ee8",
     "4603d94d-70f0-4dc8-84d9-87c83bb1e6b7",
