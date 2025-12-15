@@ -108,7 +108,7 @@
     "1765802411c246d37d": {
       "type": "apps",
       "blocks": {
-        "form_builder_contact_form_wrapper_79Qi9B": {
+        "form_builder_contact_form_wrapper_TA9LzM": {
           "type": "shopify://apps/form-builder/blocks/contact-form-wrapper/019b21ff-7de7-7278-a92b-b19f7e548dec",
           "settings": {
             "form_title": "Get in Touch",
@@ -129,7 +129,7 @@
         }
       },
       "block_order": [
-        "form_builder_contact_form_wrapper_79Qi9B"
+        "form_builder_contact_form_wrapper_TA9LzM"
       ],
       "settings": {
         "include_margins": true
