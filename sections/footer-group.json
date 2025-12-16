@@ -1,1 +1,79 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"1691387661f8a7d8d0":{"type":"apps","blocks":{"d3f64318-b97e-40f0-ae47-bc8f0f9f2e03":{"type":"shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5","settings":{"heading_size":30,"feed_width":100,"html_area":""}}},"block_order":["d3f64318-b97e-40f0-ae47-bc8f0f9f2e03"],"settings":{"include_margins":true}},"footer":{"type":"footer","custom_css":["footer {background-color: #022730; color: white;}"],"settings":{"color_scheme":"background-1","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":false,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":0,"padding_bottom":0}}},"order":["1691387661f8a7d8d0","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "1691387661f8a7d8d0": {
+      "type": "apps",
+      "blocks": {
+        "d3f64318-b97e-40f0-ae47-bc8f0f9f2e03": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d3f64318-b97e-40f0-ae47-bc8f0f9f2e03"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_yitfDA": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "VytUNE"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_yitfDA"
+      ],
+      "custom_css": [
+        "footer {background-color: #022730; color: white;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "1691387661f8a7d8d0",
+    "footer"
+  ]
+}
