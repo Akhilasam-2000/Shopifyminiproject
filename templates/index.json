@@ -107,30 +107,6 @@
     },
     "1765802411c246d37d": {
       "type": "apps",
-      "blocks": {
-        "form_builder_contact_form_wrapper_TA9LzM": {
-          "type": "shopify://apps/form-builder/blocks/contact-form-wrapper/019b21ff-7de7-7278-a92b-b19f7e548dec",
-          "settings": {
-            "form_title": "Get in Touch",
-            "first_name_label": "First Name",
-            "last_name_label": "Last Name",
-            "email_label": "Email",
-            "phone_label": "Phone",
-            "message_label": "Message",
-            "button_text": "Submit",
-            "primary_color": "#007bff",
-            "text_color": "#333333",
-            "label_color": "#555555",
-            "input_border_color": "#dddddd",
-            "button_hover_color": "#0056b3",
-            "success_color": "#28a745",
-            "error_color": "#dc3545"
-          }
-        }
-      },
-      "block_order": [
-        "form_builder_contact_form_wrapper_TA9LzM"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -362,36 +338,6 @@
     },
     "17646740785a271e4f": {
       "type": "apps",
-      "blocks": {
-        "form_builder_app_contact_form_RKdPEG": {
-          "type": "shopify://apps/form-builder-app/blocks/contact-form/019adebd-1b16-73f0-9815-8b61efd5b98f",
-          "settings": {
-            "heading": "Contact Us",
-            "description": "Fill out the form below and we'll get back to you soon!",
-            "name_label": "Name",
-            "name_placeholder": "Enter your name",
-            "email_label": "Email",
-            "email_placeholder": "Enter your email",
-            "phone_label": "Phone Number",
-            "phone_placeholder": "Enter your phone number",
-            "button_text": "Submit",
-            "submitting_text": "Submitting...",
-            "success_message": "✓ Thank you! Your form has been submitted successfully.",
-            "error_message": "An error occurred. Please try again later.",
-            "max_width": 500,
-            "padding_top": 20,
-            "padding_sides": 20,
-            "padding_bottom": 20,
-            "heading_size": 28,
-            "heading_color": "#000000",
-            "button_color": "#008060",
-            "button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "form_builder_app_contact_form_RKdPEG"
-      ],
       "disabled": true,
       "settings": {
         "include_margins": true
@@ -421,6 +367,35 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "178897763438d4352c": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_NYMyKk": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_NYMyKk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -432,6 +407,7 @@
     "77cb6c24-cec2-4be1-b37b-f624249ebcd4",
     "newsletter_k7MCD9",
     "17646740785a271e4f",
-    "1765341937b2f30ab8"
+    "1765341937b2f30ab8",
+    "178897763438d4352c"
   ]
 }
